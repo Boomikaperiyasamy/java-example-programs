@@ -1,0 +1,35 @@
+import java.util.Scanner;
+class Arithmetic{
+public static void main(String args[])
+{
+    Scanner d= new Scanner(System.in);
+    System.out.println("Enter the first num:");
+    double k= d.nextDouble();
+    System.out.println("Enter the second num:");
+    double g= d.nextDouble();
+    System.out.println("Enter choice");
+    int choice= d.nextInt();
+    switch(choice)
+    {
+        case 1:
+            Double a=k+g;
+            System.out.println("Add:"+a);
+            break;
+    
+        case 2:
+            Double p=k-g;
+            System.out.println("Sub:"+p);
+            break;
+       case 3:
+            Double q=k*g;
+            System.out.println("Mul:"+q);
+            break;
+        case 4:
+            Double y=k/g;
+            System.out.println("Div:"+y);
+            break;
+            
+    }
+}
+}
+
