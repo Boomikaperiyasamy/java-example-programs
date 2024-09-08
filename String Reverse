@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Revstr{
+public static void main(String args[])
+{
+    Scanner j=new Scanner(System.in);
+    System.out.println("Enter a str:");
+    String d= j.nextLine();
+    String k="";
+    int len=d.length();
+    for(int i=len-1;i>=0;i--)
+    {
+        k=k+d.charAt(i);
+    }
+    System.out.println("The reversed string:"+k);
+}
+}
+
+    
