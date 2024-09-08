@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Vowel{
+public static void main(String[] args)
+{
+    Scanner j= new Scanner(System.in);
+    System.out.println("Enter the string:");
+    String a= j.nextLine();
+    int len=a.length();
+    a=a.toUpperCase();
+    int count=0;
+    for(int i=0;i<len;i++)
+    {
+        char h=a.charAt(i);
+        if(h=='A'||h=='E'||h=='I'||h=='O'||h=='U')
+        {
+            count++;
+        }
+    }
+    System.out.println("The vowel character in given string:"+count);
+}
+}
+    
+    
